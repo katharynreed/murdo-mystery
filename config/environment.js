@@ -17,6 +17,14 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyCir7awF57SHRGsO0AQW42KYf2INNIhW-o",
+      authDomain: "murdo-mystery.firebaseapp.com",
+      databaseURL: "https://murdo-mystery.firebaseio.com",
+      storageBucket: "murdo-mystery.appspot.com",
+      messagingSenderId: "613234506408"
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
