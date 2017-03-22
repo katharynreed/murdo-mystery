@@ -1,4 +1,13 @@
-<h2>{{model.title}}</h2>
-<h4>The death of {{model.victim}}</h4>
-<h5>{{model.location}}</h5>
+<div class="header">
+  <h2>{{model.title}}</h2>
+  <h4>The death of {{model.victim}}</h4>
+  <h5>{{model.location}}</h5>
+</div>
 <p>{{model.story}}</p>
+{{#each model.characters as |character|}}
+  {{character-tile character=character}}
+{{/each}}
+
+<div class="col-xs-12">
+  <button class="btn btn-success" {{action 'createCharacter' model}}>New Character</button>
+</div>

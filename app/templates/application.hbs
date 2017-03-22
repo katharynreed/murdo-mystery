@@ -1,14 +1,21 @@
-
+<div class="container">
   {{outlet}}
+</div>
 
-<hr>
-<footer>
+<footer class="col-xs-12">
+  <hr>
   <ul>
     {{#link-to "index"}}
     <li>Home</li>
     {{/link-to}}
     {{#link-to "create-murdo"}}
     <li>Create a new murdo</li>
+    {{/link-to}}
+    {{#link-to "about"}}
+    <li>About</li>
+    {{/link-to}}
+    {{#link-to "contact"}}
+    <li>Contact</li>
     {{/link-to}}
   </ul>
 </footer>

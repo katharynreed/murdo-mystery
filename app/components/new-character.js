@@ -10,7 +10,9 @@ export default Ember.Component.extend({
         idol: this.get('idol'),
         weapon: this.get('weapon'),
         image: this.get('image'),
+        murdo: this.get('murdo'),
       }
+      console.log(params);
       this.sendAction('createCharacter', params);
     }
   }

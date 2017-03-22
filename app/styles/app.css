@@ -1,0 +1,51 @@
+/*$primary-color: #BC5F04;
+$secondary-color: #874000;
+$tertiary-color: #2B0504;*/
+footer {
+  margin-top: 50px;
+}
+
+img {
+  max-width: 200px;
+  max-height: auto;
+  margin-left: 30%;
+  margin-top: 25%;
+  border: 5px solid black;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+.character-name, a {
+  color: #BC5F04;
+  text-align: center;
+}
+
+a:hover {
+  color: #770603;
+  text-decoration: none;
+}
+
+.btn {
+  background: none;
+  color: black;
+  border-color: black;
+  position: absolute;
+  left: 45%;
+
+}
+
+.btn:hover {
+  background-color: #770603;
+  border-color: #770603;
+}
+
+.header {
+  text-align: center;
+}
+
+#rupert-murdo ul {
+  text-align: left;
+}
