@@ -8,6 +8,18 @@
   {{character-tile character=character}}
 {{/each}}
 
+{{#if model.started}}
+  <form action="index.html" method="post">
+    <select id="select-murdoer" class="form-control" name="murder-guess">
+      {{#each model.characters as |character|}}
+        <option value={{character.id}}>{{character.name}}</option>
+      {{/each}}
+    </select>
+    <button class="btn" {{action 'murdoComplete' model}}>Finish Murdo</button>
+  </form>
+{{else}}
 <div class="col-xs-12">
   <button class="btn btn-success" {{action 'createCharacter' model}}>New Character</button>
+  <button class="btn btn-primary" {{action 'murdoInit' model}}>Start Murdo</button>
 </div>
+{{/if}}

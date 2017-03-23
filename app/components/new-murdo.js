@@ -10,7 +10,7 @@ export default Ember.Component.extend({
         story: this.get('story'),
         murderer: null,
         started: false,
-      }
+      };
       this.sendAction('createMurdo', params);
     }
   }
