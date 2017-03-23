@@ -1,3 +1,8 @@
-{{#each model as |murdo|}}
-  {{murdo-tile murdo=murdo}}
-{{/each}}
+
+{{#if model}}
+  {{#each model as |murdo|}}
+    {{murdo-tile murdo=murdo}}
+  {{/each}}
+{{else}}
+  <h3 class="soft-header">There are no murdos in action. Make your own {{#link-to "create-murdo"}}here{{/link-to}}.</h3>
+{{/if}}
