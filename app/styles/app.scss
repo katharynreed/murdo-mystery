@@ -1,0 +1,107 @@
+
+@import "ember-bootstrap/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+$primary-color: #0E6A75;
+$secondary-color: #5E99FF;
+$tertiary-color: #92739D;
+$white: #E6EEFD;
+$background: #000052;
+
+
+footer {
+  margin-top: 50px;
+}
+
+body {
+  background-color: $background;
+  background-image: url('/assets/images/murdo.gif');
+  background-repeat: no-repeat;
+  background-position: left 1px top -160% fixed;
+  background-size: cover;
+  background-blend-mode: lighten;;
+}
+
+img {
+  max-width: 140px;
+  max-height: auto;
+  margin-left: 30%;
+  margin-top: 25%;
+  border: 5px solid black;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+.character-name, a {
+  color: $primary-color;
+  text-align: center;
+}
+
+a:hover {
+  color: $secondary-color;
+  text-decoration: none;
+}
+
+.btn {
+  background: none;
+  color: $background;
+  border-color: $secondary-color;
+  position: absolute;
+  left: 45%;
+  width: 150px;
+}
+
+.btn-start {
+  position: absolute;
+  left: 45%;
+  width: 150px;
+  top: 40px;
+}
+
+.btn:hover {
+  background-color: $secondary-color;
+  border-color: $primary-color;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.soft-header {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 27px;
+}
+
+#rupert-murdo ul {
+  text-align: left;
+}
+
+#main-header {
+  text-align: center;
+  font-size: 100px;
+  text-transform: uppercase;
+  font-family: 'Permanent Marker', cursive;
+  color: $secondary-color;
+  text-shadow: -4px 0 $white, 0 4px $white, 4px 0 $white, 0 -4px $white;
+  margin-bottom: 65px;
+  margin-top: 65px;
+}
+
+#content {
+  max-width: 90%;
+  padding-left: 20%;
+  padding-right: 10%;
+  margin-top: 10%;
+  padding-bottom: 10%;
+}
+
+#background-blood {
+
+}
