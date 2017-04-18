@@ -1,7 +1,6 @@
 # murdo-mystery
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Murdo Mystery is a game that was built because of a typo that made "murder" into "murdo". In short, it is a murder mystery in the Murdo Mansion which requires the player to solve the murder by guessing from the possible choices. If they answer correctly the mystery will disappear forever... into the void where it belongs. This app was built to learn Ember and show proficiency in creating an Ember App.
 
 ## Prerequisites
 
@@ -15,7 +14,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/katharynreed/murdo-mystery` this repository
 * `cd murdo-mystery`
 * `npm install`
 * `bower install`
